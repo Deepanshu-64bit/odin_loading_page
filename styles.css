@@ -1,0 +1,81 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.upper,.upper2 {
+    background-color: #1F2937;
+    /*Below two lines will make header files and list items appear in a straight line*/
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+#hlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+
+ul {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    /* 1 line below will make the list items appear in a row*/
+    flex-direction: row;
+}   
+
+.upper-left,.upper-right {
+    /*4 lines make the logo and links and appears in half screen and make everything appear in centre*/
+    display: flex;
+    width: 50%;
+    justify-content:center ;
+    align-items: center;
+}
+
+.Text{
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.Text2{
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.upper2-left,.upper2-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.upper2 {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    margin: 30px;
+    height: 300px;
+    width: 600px;
+}
+
+.sbutton {
+    background-color: #3882f6;
+    color: white;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+.upper2-left {
+    margin-left: 400px;
+}

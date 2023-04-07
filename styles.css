@@ -74,8 +74,42 @@ img {
     height: 40px;
     width: 70px;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .upper2-left {
     margin-left: 400px;
+}
+
+.mtitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.boxes { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+    max-width: 75%;
+
+}
+
+.bbox {
+    border: 2px solid #3882f6;
+    padding: 70px;
+    border-radius: 25px;
+}
+
+.mboxes {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }

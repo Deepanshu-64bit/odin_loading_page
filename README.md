@@ -1,4 +1,4 @@
-# odin_loading_page
+# Odin_loading_page
 
 **Preview:-**
 
